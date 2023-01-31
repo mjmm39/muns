@@ -507,8 +507,9 @@ margin-top:30px;
   transition: all 0.7s;
 }
 
-.img_box a{
+.img_box > a{
   display: block;
+  z-index:-22;
 }
 
 .txt_box{
@@ -646,7 +647,7 @@ text-align: center;
   background-color: #fff;
   margin:0 auto;
   position:relative;
- padding:80px 0 20px;
+ padding:80px 0 80px;
 }
 
 .inner{
@@ -889,7 +890,7 @@ p.copyright{
 .modal_up1{
   width:600px;
   height:819px;
-  background-color: #33f;
+  /* background-color: #33f; */
   position:fixed;
   top:50%; left:50%;
   transform: translate(-50%,-50%);
@@ -924,7 +925,7 @@ p.copyright{
 .modal_up2{
   width:600px;
   height:825px;
-  background-color: #33f;
+  /* background-color: #33f; */
   position:fixed;
   top:50%; left:50%;
   transform: translate(-50%,-50%);
@@ -958,7 +959,7 @@ p.copyright{
 .modal_up3{
   width:600px;
   height:812px;
-  background-color: #33f;
+  /* background-color: #33f; */
   position:fixed;
   top:50%; left:50%;
   transform: translate(-50%,-50%);
@@ -992,7 +993,7 @@ p.copyright{
 .modal_up4{
   width:600px;
   height:715px;
-  background-color: #33f;
+  /* background-color: #33f; */
   position:fixed;
   top:50%; left:50%;
   transform: translate(-50%,-50%);
@@ -1026,7 +1027,7 @@ p.copyright{
 .modal_up5{
   width:600px;
   height:715px;
-  background-color: #33f;
+  /* background-color: #33f; */
   position:fixed;
   top:50%; left:50%;
   transform: translate(-50%,-50%);
@@ -1060,7 +1061,7 @@ p.copyright{
 .modal_up6{
   width:600px;
   height:733px;
-  background-color: #33f;
+  /* background-color: #33f; */
   position:fixed;
   top:50%; left:50%;
   transform: translate(-50%,-50%);
@@ -1914,7 +1915,7 @@ text-align: center;
   margin:0 auto;
   /* padding:0 80px; */
   position:absolute;
-  top:50%; left:50%;
+  top:40%; left:50%;
   transform: translate(-50%,-50%);
 }
 
@@ -2148,7 +2149,7 @@ p.copyright{
 .modal_up1{
   width:880px;
   height:1197px;
-  background-color: #33f;
+  /* background-color: #33f; */
   position:fixed;
   top:50%; left:50%;
   transform: translate(-50%,-50%);
@@ -2184,7 +2185,7 @@ p.copyright{
 .modal_up2{
   width:887px;
   height:1215px;
-  background-color: #33f;
+  /* background-color: #33f; */
   position:fixed;
   top:50%; left:50%;
   transform: translate(-50%,-50%);
@@ -2219,7 +2220,7 @@ p.copyright{
 .modal_up3{
   width:880px;
   height:1189px;
-  background-color: #33f;
+  /* background-color: #33f; */
   position:fixed;
   top:50%; left:50%;
   transform: translate(-50%,-50%);
@@ -2254,7 +2255,7 @@ p.copyright{
 .modal_up4{
   width:880px;
   height:1048px;
-  background-color: #33f;
+  /* background-color: #33f; */
   position:fixed;
   top:50%; left:50%;
   transform: translate(-50%,-50%);
@@ -2290,7 +2291,7 @@ p.copyright{
 .modal_up5{
   width:880px;
   height:1048px;
-  background-color: #33f;
+  /* background-color: #33f; */
   position:fixed;
   top:50%; left:50%;
   transform: translate(-50%,-50%);
@@ -2325,7 +2326,7 @@ p.copyright{
 .modal_up6{
   width:880px;
   height:1072px;
-  background-color: #33f;
+  /* background-color: #33f; */
   position:fixed;
   top:50%; left:50%;
   transform: translate(-50%,-50%);
