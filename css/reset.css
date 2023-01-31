@@ -1,0 +1,29 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+  font-family: 'SBAggroB';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SBAggroB.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+*{
+	margin:0 auto;
+	padding:0;
+	list-style:none;
+	font-family:'SBAggroB';
+	color:#333333
+}
+body{
+	
+	background-color:#ffffff;
+	font-size:20px;
+}
+a{
+	text-decoration:none;
+	display:block;
+  font-size:0;
+}
+
+
