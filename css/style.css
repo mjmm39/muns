@@ -509,8 +509,17 @@ margin-top:30px;
 
 .img_box > a{
   display: block;
-  z-index:-22;
+  width:100%;
+
 }
+
+
+.img_box > a > img{
+  display: block;
+
+}
+
+
 
 .txt_box{
   height:100%;
